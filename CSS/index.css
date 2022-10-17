@@ -1,19 +1,20 @@
 * {
-  --emerald-green: #009874;
-  --yellow-Red: #edae49;
-  --charcoal: #252a31;
+  --mps-red: #d32828;
+  --mps-background: #282728;
 }
 
 header {
   background: url(../IMAGES/IMG_7740cv1.jpg);
   background-size: cover;
-  background-position: center;
-  /* min-height: 500px; */
+  background-position: 55em;
+  min-height: 500px;
 }
 
 @media screen and (min-width: 601px) {
   header {
     min-height: 1000px;
+    background-size: cover;
+    background-position: center;
   }
   .container {
     width: 90%;
@@ -42,12 +43,7 @@ header {
 
 footer.page-footer {
   padding: 0;
-  background-color: var(--charcoal);
-}
-
-.navLink {
-  /* color: var(--yellow-Red); */
-  /* color: var(--charcoal); */
+  background-color: var(--mps-background);
 }
 
 @media screen and (max-width: 600px) {
@@ -93,7 +89,7 @@ li {
 }
 
 .tooltipped:hover {
-  background-color: var(--emerald-green) !important;
+  background-color: var(--mps-red) !important;
 }
 
 .social {
@@ -116,6 +112,7 @@ li {
 .ltxt {
   font-size: 1.2em;
   margin-bottom: 0.3em;
+  line-height: 1.25em;
 }
 
 .mtxt {
@@ -128,4 +125,10 @@ li {
 
 .martopmin {
   margin-top: -0.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .martopmin {
+    margin-top: 0;
+  }
 }
