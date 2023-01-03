@@ -41,9 +41,18 @@ header {
   padding-bottom: 0.3em;
 }
 
+footer {
+  margin-top: 1vw;
+}
+
 footer.page-footer {
   padding: 0;
   background-color: var(--mps-background);
+}
+
+a.emp,
+a.emp:visited {
+  color: var(--mps-red) !important;
 }
 
 @media screen and (max-width: 600px) {
@@ -93,7 +102,7 @@ li {
 }
 
 .social {
-  padding-top: 1vw;
+  padding-top: 2vw;
 }
 
 .stardiv {
@@ -131,4 +140,12 @@ li {
   .martopmin {
     margin-top: 0;
   }
+}
+
+.cv-container {
+  margin-top: 1.5em;
+}
+
+i.emp {
+  color: var(--mps-red);
 }
