@@ -1,7 +1,8 @@
-# Mout Pessemier Studios
+<h1 align="center">Mout Pessemier Studios</h1>
 
-<img width="500px" src="/ASSETS/LogoV1.png" style="display: block; margin: 0 auto;" />
-<br />
+<p align="center">
+  <img width="500px" src="/ASSETS/LogoV1.png" style="display: block; margin: 0 auto;" />
+</p>
 
 This website serves as a portfolio of the likes to show of my work and skills as a photographer and videographer. Be sure to check <a traget="_blank" href="https://www.moutpessemier.be" style="colour: #d32828">the website</a> out!
 
